@@ -9,6 +9,9 @@
 4. **Voley**
 4. **Language** - Kotlin
 
+Six person owns a team and fight against six different player of other teams to make table top.
+
+
 <img src="app/src/main/res/drawable/Screenshot_20200716-141018.png" width="250" height="400" />
 <img src="app/src/main/res/drawable/Screenshot_20200716-141025.png" width="250" height="400" />
 <img src="app/src/main/res/drawable/Screenshot_20200716-141042.png" width="250" height="400" />
