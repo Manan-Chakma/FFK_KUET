@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">KUET FANTASY</string>
+    <string name="standings">Standings</string>
+    <string name="leagues">Leagues</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="road_to_glory">ROAD TO GLORY</string>
+    <string name="oops_no_internet">Oops! No Internet</string>
+    <string name="ffk_road_2_glory">FFK ROAD 2 GLORY</string>
+    <string name="final_standings">Final Standings</string>
+    <string name="header_rank">sl</string>
+    <string name="header_img">c</string>
+    <string name="header_club">title</string>
+    <string name="header_played">p</string>
+    <string name="header_win">w</string>
+    <string name="header_draw">d</string>
+    <string name="header_lose">l</string>
+    <string name="header_fpl">fpl</string>
+    <string name="h2h">h2h</string>
+
+
+    <string-array name="league_names">
+        <item>R2G - Group A</item>
+        <item>R2G - Group B</item>
+        <item>R2G - Group C</item>
+        <item>R2G - Group D</item>
+        <item>R2G - Group E</item>
+        <item>R2G - Group F</item>
+    </string-array>
+</resources>

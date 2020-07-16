@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="@color/colorPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/head_rank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_img"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".05" />
+
+        <TextView
+            android:id="@+id/head_img"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textColor="#ffff"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/head_team_name"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_rank"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".05" />
+
+        <TextView
+            android:id="@+id/head_team_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_match_played"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_img"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".25" />
+
+        <TextView
+            android:id="@+id/head_match_played"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_win"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_team_name"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".1" />
+
+        <TextView
+            android:id="@+id/head_win"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_draw"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_match_played"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".1" />
+
+        <TextView
+            android:id="@+id/head_draw"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_lose"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_win"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".1" />
+
+        <TextView
+            android:id="@+id/head_lose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_fpl_point"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_draw"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".1" />
+
+        <TextView
+            android:id="@+id/head_fpl_point"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toStartOf="@+id/head_h2h"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_lose"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".15" />
+
+        <TextView
+            android:id="@+id/head_h2h"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/head_fpl_point"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintWidth_percent=".1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
