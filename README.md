@@ -5,8 +5,8 @@
 
 1. **ViewModel** 
 2. **Fantasy Api**
-3. **Kotlin Couroutine**4
-4. **Voley**
+3. **Kotlin Couroutine**
+4. **Volley**
 4. **Language** - Kotlin
 
 Six person owns a team and fight against six different player of other teams to make table top.
